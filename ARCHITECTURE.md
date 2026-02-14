@@ -1,4 +1,4 @@
-# 1x Rupee — Project Architecture
+# X payments — Project Architecture
 
 > **Concept:** A payment platform website with **1x Rupee's visual design** (clean, trustworthy, professional) and **1x Rupee content** (B2B payments OS, UPI, checkout solutions, developer-centric).
 

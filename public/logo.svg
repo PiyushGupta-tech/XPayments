@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" fill="none">
+  <defs>
+    <linearGradient id="xpGrad" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00205b"/>
+      <stop offset="50%" stop-color="#003087"/>
+      <stop offset="100%" stop-color="#0070ba"/>
+    </linearGradient>
+  </defs>
+  <!-- X emblem - clean diagonal strokes, gradient, glossy like 1xRupee -->
+  <g transform="translate(0, 8)">
+    <!-- Left arm (upper-left to lower-right) - darker base -->
+    <path d="M6 4 L22 32" stroke="url(#xpGrad)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Right arm (lower-left to upper-right) - overlaps for depth -->
+    <path d="M22 4 L6 32" stroke="url(#xpGrad)" stroke-width="6" stroke-linecap="round"/>
+    <!-- Highlight stroke for 3D gloss -->
+    <path d="M9 7 L19 29" stroke="#0070ba" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+  </g>
+  <!-- Payments text - bold, same gradient -->
+  <text x="44" y="38" font-family="Inter, system-ui, -apple-system, sans-serif" font-size="26" font-weight="700" fill="url(#xpGrad)">Payments</text>
+</svg>

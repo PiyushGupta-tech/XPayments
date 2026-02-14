@@ -66,11 +66,11 @@ export default function DevelopersPage() {
           <h1 className="mt-4 text-4xl font-bold tracking-tight text-white md:text-5xl lg:text-6xl">
             Build with{" "}
             <span className="bg-gradient-to-r from-primary-light to-primary bg-clip-text text-transparent">
-              1x Rupee
+              XPayments
             </span>
           </h1>
           <p className="mt-6 max-w-2xl text-lg text-gray-400 md:text-xl">
-            Integrate 1x Rupee into your application. Find API documentation, SDKs, and everything you need to ship payments at scale.
+            Integrate XPayments into your application. Find API documentation, SDKs, and everything you need to ship payments at scale.
           </p>
           <div className="mt-10 flex flex-wrap gap-4">
             <Link
@@ -143,7 +143,7 @@ export default function DevelopersPage() {
             <span className="h-2.5 w-2.5 rounded-full bg-emerald-500/90" />
           </div>
           <pre className="overflow-x-auto text-gray-300">
-            <code>{`// Initialize 1x Rupee SDK
+            <code>{`// Initialize XPayments SDK
 const rupee = await OneXRupee.init({ apiKey: 'pk_live_xxx' });
 
 // Create a payment session

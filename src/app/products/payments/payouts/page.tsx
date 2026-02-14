@@ -20,7 +20,7 @@ const payoutCards = [
 const advantageItems = [
   {
     title: "Connect your own banking setup",
-    desc: "Seamlessly connect your existing banking setup to manage payouts via 1x Rupee.",
+    desc: "Seamlessly connect your existing banking setup to manage payouts via XPayments.",
     icon: "M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4",
   },
   {
@@ -58,7 +58,7 @@ export default function PayoutsPage() {
             payouts for your Business
           </h1>
           <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-600">
-            From refunds, vendor payments, loans to salary payments, 1x Rupee&apos;s direct integrations with Networks, banks and PGs make your payouts frictionless.
+            From refunds, vendor payments, loans to salary payments, XPayments&apos; direct integrations with Networks, banks and PGs make your payouts frictionless.
           </p>
           <Link
             href="/contact"
@@ -69,7 +69,7 @@ export default function PayoutsPage() {
         </div>
       </section>
 
-      {/* Payout system diagram - Central 1x Rupee logo */}
+      {/* Payout system diagram - Central XPayments logo */}
       <section className="relative mx-4 md:mx-6 mt-8 overflow-hidden rounded-2xl border border-gray-200 bg-sky-50/50 px-6 py-16 md:px-12 md:py-24">
         <div
           className="absolute inset-0 opacity-[0.03]"
@@ -102,17 +102,17 @@ export default function PayoutsPage() {
               <h3 className="font-semibold text-gray-900">Custom Business Routes</h3>
             </div>
           </div>
-          {/* Central 1x Rupee logo */}
+          {/* Central XPayments logo */}
           <div className="relative mt-8 flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-lg ring-2 ring-primary">
-            <Image src="/logo.png" alt="1x Rupee" width={64} height={64} className="object-contain" />
+            <Image src="/logo.png" alt="XPayments" width={64} height={64} className="object-contain" />
           </div>
         </div>
       </section>
 
-      {/* 1x Rupee Advantage */}
+      {/* XPayments Advantage */}
       <section className="mx-4 md:mx-6 mt-8 rounded-2xl border border-gray-200 bg-white px-6 py-16 md:px-12 md:py-24">
         <h2 className="text-center text-3xl font-bold text-gray-900 md:text-4xl">
-          1x Rupee Advantage
+          XPayments Advantage
         </h2>
         <div className="mt-12 grid gap-8 md:grid-cols-3">
           {advantageItems.map((item, i) => (
@@ -144,10 +144,10 @@ export default function PayoutsPage() {
             <h3 className="text-xl font-bold text-white">Bank Account</h3>
             <p className="mt-3 text-gray-400">Payout to users bank accounts via IMPS, NEFT, RTGS instantly#, 24*7</p>
           </div>
-          {/* Central 1x Rupee logo */}
+          {/* Central XPayments logo */}
           <div className="flex justify-center">
             <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg ring-2 ring-primary">
-              <Image src="/logo.png" alt="1x Rupee" width={56} height={56} className="object-contain" />
+              <Image src="/logo.png" alt="XPayments" width={56} height={56} className="object-contain" />
             </div>
           </div>
           <div className="text-center">
@@ -196,7 +196,7 @@ export default function PayoutsPage() {
           <div>
             <div className="rounded-xl border border-gray-200 bg-gray-50 p-6">
               <h3 className="text-xl font-bold text-gray-900">Payouts Links</h3>
-              <p className="mt-3 text-gray-600">Capture, validate, and complete the payout in a single flow using 1x Rupee&apos;s Payout Links.</p>
+              <p className="mt-3 text-gray-600">Capture, validate, and complete the payout in a single flow using XPayments&apos; Payout Links.</p>
             </div>
           </div>
         </div>
@@ -211,7 +211,7 @@ export default function PayoutsPage() {
         <div className="relative grid gap-12 lg:grid-cols-2">
           <div>
             <h2 className="text-3xl font-bold text-white md:text-4xl">Validation suite</h2>
-            <p className="mt-4 text-gray-400">1x Rupee stack powers you to accept credit card bill payments, end to end, with one of the highest card coverage rates.</p>
+            <p className="mt-4 text-gray-400">XPayments stack powers you to accept credit card bill payments, end to end, with one of the highest card coverage rates.</p>
             <div className="mt-8 space-y-6">
               {validationMethods.map((v, i) => (
                 <div key={i} className="flex gap-4 rounded-xl border border-white/10 bg-white/5 p-4">
@@ -250,7 +250,7 @@ export default function PayoutsPage() {
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
             <h2 className="text-3xl font-bold text-gray-900 md:text-4xl">Credit Card Bill Payments</h2>
-            <p className="mt-4 text-gray-600">1x Rupee stack powers you to accept credit card bill payments, end to end, with one of the highest card coverage rates.</p>
+            <p className="mt-4 text-gray-600">XPayments stack powers you to accept credit card bill payments, end to end, with one of the highest card coverage rates.</p>
             <ul className="mt-6 space-y-3 text-gray-600">
               <li className="flex items-center gap-2">• Accept credit card payments</li>
               <li className="flex items-center gap-2">• Tokenize user&apos;s card to provide repeat bill payment</li>
@@ -265,7 +265,7 @@ export default function PayoutsPage() {
                 <p>Net banking</p>
                 <p>Wallets</p>
               </div>
-              <p className="mt-6 text-center text-xs text-gray-500">powered by 1x Rupee</p>
+              <p className="mt-6 text-center text-xs text-gray-500">powered by XPayments</p>
             </div>
           </div>
         </div>

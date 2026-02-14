@@ -1,6 +1,6 @@
 export const metadata = {
-  title: "FAQ | 1x Rupee",
-  description: "Frequently asked questions about 1x Rupee payment solutions.",
+  title: "FAQ | XPayments",
+  description: "Frequently asked questions about XPayments payment solutions.",
 };
 
 export default function HelpPage() {
@@ -8,7 +8,7 @@ export default function HelpPage() {
     <main className="mx-auto max-w-4xl px-6 py-16">
       <h1 className="text-4xl font-bold text-gray-900">FAQ</h1>
       <p className="mt-4 text-lg text-gray-600">
-        Frequently asked questions about 1x Rupee payment solutions, integration, and support.
+        Frequently asked questions about XPayments payment solutions, integration, and support.
       </p>
       <div className="mt-12 space-y-8">
         <div>

@@ -360,7 +360,7 @@ export default function QuickPayPage() {
               </div>
             </div>
 
-            {/* TPV - secured by 1x Rupee */}
+            {/* TPV - secured by XPayments */}
             <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm md:p-10">
               <h2 className="text-2xl font-bold text-gray-900">TPV</h2>
               <p className="mt-4 text-gray-600">
@@ -396,7 +396,7 @@ export default function QuickPayPage() {
                   <div className="border-t border-gray-700 px-3 py-2 text-center">
                     <p className="flex items-center justify-center gap-1 text-[10px] text-gray-400">
                       <span>secured by</span>
-                      <span className="font-semibold text-primary-light">1x Rupee</span>
+                      <span className="font-semibold text-primary-light">XPayments</span>
                     </p>
                   </div>
                 </div>

@@ -16,11 +16,11 @@ export default function CTA() {
         className={`relative mx-auto max-w-4xl px-6 text-center transition-all duration-700 ease-out ${isInView ? "opacity-100 scale-100 translate-y-0" : "opacity-0 scale-95 translate-y-8"}`}
       >
         <h2 className="text-3xl font-bold text-white md:text-4xl lg:text-5xl">
-          Discover even more ways to 1x Rupee
+          Discover even more ways to XPayments
         </h2>
         <p className="mt-8 text-lg text-blue-100 md:text-xl">
           From seamless Payment Experiences to end-to-end UPI infrastructure—everything 
-          that accelerates your 10x growth. Powered by 1x Rupee.
+          that accelerates your 10x growth. Powered by XPayments.
         </p>
         <div className="mt-12 flex flex-col items-center justify-center gap-4 sm:flex-row">
           <Link

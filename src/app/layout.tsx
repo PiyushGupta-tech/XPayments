@@ -7,9 +7,9 @@ import Footer from "@/components/layout/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "1x Rupee | Global Payments Operating System",
+  title: "XPayments | Global Payments Operating System",
   description:
-    "1x Rupee - Global Payments Operating System. Superior UX, higher conversions, minimal payment operations. HyperCheckout, HyperUPI, HyperCredit—everything for 10x growth.",
+    "XPayments - Global Payments Operating System. Superior UX, higher conversions, minimal payment operations. HyperCheckout, HyperUPI, HyperCredit—everything for 10x growth.",
   icons: {
     icon: "/favicon.svg",
   },

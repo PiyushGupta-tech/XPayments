@@ -89,10 +89,10 @@ export default function OffersPage() {
         </div>
       </section>
 
-      {/* 1x Rupee Advantage */}
+      {/* XPayments Advantage */}
       <section className="mx-4 md:mx-6 mt-8 rounded-2xl border border-gray-200 bg-white px-6 py-16 md:px-12 md:py-24">
         <h2 className="text-center text-3xl font-bold text-gray-900 md:text-4xl">
-          The 1x Rupee Advantage
+          The XPayments Advantage
         </h2>
         <p className="mt-2 text-center text-gray-500">OFFER BENEFITS</p>
         <div className="mt-12 grid gap-8 md:grid-cols-3">

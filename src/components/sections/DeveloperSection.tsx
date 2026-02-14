@@ -32,14 +32,14 @@ export default function DeveloperSection() {
       />
       <div className="relative mx-auto max-w-7xl px-6">
         <p className="text-center text-sm font-semibold uppercase tracking-wider text-primary-light">
-          For developers, by developers — 1x Rupee
+          For developers, by developers — XPayments
         </p>
         <h2 className="mt-4 text-center text-3xl font-bold text-white md:text-4xl">
           Composable abstractions
         </h2>
         <p className="mx-auto mt-6 max-w-2xl text-center text-gray-400">
           Our stack provides composable, robust abstractions. Domain Specific Languages allow 
-          you to write business logic like a narrative—powered by 1x Rupee.
+          you to write business logic like a narrative—powered by XPayments.
         </p>
         <div
           ref={sectionRef}
@@ -73,12 +73,12 @@ paymentsCheckoutsDSL user =
           <div>
             <h3 className="text-2xl font-bold text-white">FRP & DSL</h3>
             <p className="mt-6 text-gray-400">
-              1x Rupee stack provides composable, robust abstractions. Domain Specific Languages 
+              XPayments stack provides composable, robust abstractions. Domain Specific Languages 
               allow you to write business logic like a narrative.
             </p>
             <p className="mt-4 text-gray-400">
               From seamless checkouts to payment orchestration—everything built for scale and 
-              developer happiness with 1x Rupee.
+              developer happiness with XPayments.
             </p>
             <Link
               href="/docs"

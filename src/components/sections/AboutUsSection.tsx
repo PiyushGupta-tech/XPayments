@@ -17,7 +17,7 @@ export default function AboutUsSection() {
             <span className="text-primary-light">for Global Scale</span>
           </h2>
           <p className="mt-6 text-lg leading-relaxed text-gray-300">
-            Trusted by leading enterprises worldwide, 1x Rupee simplifies payment orchestration and global coverage, boosts conversions, reduces fraud, and delivers seamless customer experiences.
+            Trusted by leading enterprises worldwide, XPayments simplifies payment orchestration and global coverage, boosts conversions, reduces fraud, and delivers seamless customer experiences.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ export default function AboutUsSection() {
             ].map(([x, y], i) => (
               <circle key={i} cx={x} cy={y} r="4" fill="rgba(255,255,255,0.25)" />
             ))}
-            {/* Central circle with rings and 1x Rupee logo */}
+            {/* Central circle with rings and XPayments logo */}
             <circle cx="200" cy="190" r="70" fill="rgba(30,41,59,0.9)" stroke="rgba(255,255,255,0.08)" strokeWidth="1" />
             <circle cx="200" cy="190" r="50" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="1" />
             <circle cx="200" cy="190" r="30" fill="none" stroke="rgba(255,255,255,0.06)" strokeWidth="1" />

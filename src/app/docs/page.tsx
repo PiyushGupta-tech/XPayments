@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 const sections = [
-  { title: "Getting Started", description: "Quick start guide for integrating 1x Rupee", href: "#" },
+  { title: "Getting Started", description: "Quick start guide for integrating XPayments", href: "#" },
   { title: "Authentication", description: "API keys, webhooks, and security", href: "#" },
   { title: "Payments API", description: "Create and manage payment transactions", href: "#" },
   { title: "UPI Integration", description: "HyperUPI and UPI stack documentation", href: "#" },
@@ -15,7 +15,7 @@ export default function DocsPage() {
       <div className="mx-auto max-w-7xl px-6 py-16 md:py-24">
         <h1 className="text-4xl font-bold text-gray-900 md:text-5xl">API Documentation</h1>
         <p className="mt-6 max-w-3xl text-xl text-gray-600">
-          Integrate 1x Rupee into your application. Find guides, API references, and SDK documentation.
+          Integrate XPayments into your application. Find guides, API references, and SDK documentation.
         </p>
 
         <div className="mt-16 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

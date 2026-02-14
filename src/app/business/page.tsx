@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function BusinessPage() {
   return (
     <div className="mx-auto max-w-7xl px-6 py-16 md:py-24">
-      <h1 className="text-4xl font-bold text-gray-900">1x Rupee for Business</h1>
+      <h1 className="text-4xl font-bold text-gray-900">XPayments for Business</h1>
       <p className="mt-6 max-w-3xl text-lg text-gray-600">
         Accept payments online and grow your business. Online checkout, payment links, invoicing, and recurring payments.
       </p>
@@ -26,7 +26,7 @@ export default function BusinessPage() {
         </Link>
         <Link href="/business/checkout-integration" className="rounded-xl border border-gray-200 p-6 hover:border-primary">
           <h3 className="font-semibold text-gray-900">Checkout Integration</h3>
-          <p className="mt-2 text-sm text-gray-600">Integrate 1x Rupee into your site</p>
+          <p className="mt-2 text-sm text-gray-600">Integrate XPayments into your site</p>
         </Link>
       </div>
     </div>

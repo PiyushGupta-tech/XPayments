@@ -85,7 +85,7 @@ export const footerLinks = {
 export const stats = [
   { value: "300 Mn+", label: "Transactions processed every day" },
   { value: "99.999%", label: "Uptime best in class" },
-  { value: "2.5 Bn+", label: "App Installs with 1x Rupee SDKs" },
+  { value: "2.5 Bn+", label: "App Installs with XPayments SDKs" },
   { value: "₹1 Lakh Cr+", label: "Annual TPV" },
 ];
 
@@ -125,17 +125,17 @@ export const productsOverview = [
 export const testimonials = [
   {
     quote:
-      "We admire 1x Rupee for its great UI and consistent experience across our Web, Android, and iOS platforms!",
+      "We admire XPayments for its great UI and consistent experience across our Web, Android, and iOS platforms!",
     author: "Director of Growth, Travclan",
   },
   {
     quote:
-      "1x Rupee has been more of a partner than just a vendor. The breadth of knowledge in the payments space has been impressive!",
+      "XPayments has been more of a partner than just a vendor. The breadth of knowledge in the payments space has been impressive!",
     author: "Product, Bigbasket",
   },
   {
     quote:
-      "Our teams have always worked together to achieve a better payment experience. 1x Rupee conversion rates are a benchmark for the industry.",
+      "Our teams have always worked together to achieve a better payment experience. XPayments conversion rates are a benchmark for the industry.",
     author: "Director Finance, Swiggy",
   },
   {
@@ -150,7 +150,7 @@ export const testimonials = [
   },
   {
     quote:
-      "1x Rupee continues to offer a range of payment solutions with ease of integration which helps us provide seamless & choiceful payment options to our customers.",
+      "XPayments continues to offer a range of payment solutions with ease of integration which helps us provide seamless & choiceful payment options to our customers.",
     author: "Head of Payments Products, TataCliq",
   },
 ];

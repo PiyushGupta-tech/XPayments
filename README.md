@@ -1,6 +1,6 @@
 # 1x Rupee
 
-A payment platform website for **1x Rupee** — B2B payment solutions, UPI stack, and checkout experiences.
+A payment platform website for **X payments** — B2B payment solutions, UPI stack, and checkout experiences.
 
 ---
 

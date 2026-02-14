@@ -24,22 +24,22 @@ const productDescriptions: Record<string, string> = {
 };
 
 const iconColors: Record<string, string> = {
-  "HyperCheckout": "bg-emerald-100 text-emerald-700",
-  "Express Checkout": "bg-rose-100 text-rose-700",
-  "Payouts": "bg-amber-100 text-amber-700",
-  "Payment Links & Forms": "bg-blue-100 text-blue-700",
-  "Offers": "bg-violet-100 text-violet-700",
-  "NACH Payments": "bg-teal-100 text-teal-700",
-  "HyperUPI": "bg-amber-100 text-amber-700",
-  "UPI Issuing Stack": "bg-indigo-100 text-indigo-700",
-  "UPI TPAP Stack": "bg-sky-100 text-sky-700",
-  "UPI Acquiring Stack": "bg-cyan-100 text-cyan-700",
-  "For Merchants": "bg-emerald-100 text-emerald-700",
-  "For Lenders": "bg-violet-100 text-violet-700",
-  "QuickPay": "bg-amber-100 text-amber-700",
-  "Retry": "bg-rose-100 text-rose-700",
-  "Native OTP": "bg-blue-100 text-blue-700",
-  "Third Party Validation": "bg-indigo-100 text-indigo-700",
+  "HyperCheckout": "bg-primary/10 text-primary",
+  "Express Checkout": "bg-primary/10 text-primary",
+  "Payouts": "bg-primary/10 text-primary",
+  "Payment Links & Forms": "bg-primary/10 text-primary",
+  "Offers": "bg-primary/10 text-primary",
+  "NACH Payments": "bg-primary/10 text-primary",
+  "HyperUPI": "bg-primary/10 text-primary",
+  "UPI Issuing Stack": "bg-primary/10 text-primary",
+  "UPI TPAP Stack": "bg-primary/10 text-primary",
+  "UPI Acquiring Stack": "bg-primary/10 text-primary",
+  "For Merchants": "bg-primary/10 text-primary",
+  "For Lenders": "bg-primary/10 text-primary",
+  "QuickPay": "bg-primary/10 text-primary",
+  "Retry": "bg-primary/10 text-primary",
+  "Native OTP": "bg-primary/10 text-primary",
+  "Third Party Validation": "bg-primary/10 text-primary",
 };
 
 const categoryLabels: Record<string, string> = {
@@ -55,7 +55,7 @@ export default function Products() {
   return (
     <section className="bg-white py-20 md:py-28">
       <div ref={ref} className="mx-auto max-w-7xl px-6">
-        {/* Heading & Subtitle - 1x Rupee style */}
+        {/* Heading & Subtitle - XPayments style */}
         <div className={`mb-16 transition-all duration-600 ease-out ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
           <h2 className="text-4xl font-bold text-gray-900 md:text-5xl">
             Products
@@ -88,7 +88,7 @@ export default function Products() {
                     >
                       {/* Icon - pastel background, left aligned */}
                       <span
-                        className={`flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl ${iconColors[product.label] || "bg-gray-100 text-gray-600"}`}
+                        className={`flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl ${iconColors[product.label] || "bg-primary/10 text-primary"}`}
                       >
                         <svg
                           className="h-6 w-6"

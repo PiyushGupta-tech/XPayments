@@ -33,10 +33,10 @@ const featureBoxes = [
 
 const testimonialHighlights = [
   { name: "Kaushal Singh", role: "PRODUCT LEAD, ONECARD", quote: "The platform is user-friendly and has made a significant impact on streamlining our repayments and driving key success metrics.", bg: "bg-gray-900" },
-  { name: "Mohsin Batla", role: "DIRECTOR, TRAVCLAN", quote: "We admire 1x Rupee for its great UI and consistent experience across our Web, Android, and iOS platforms!", bg: "bg-amber-50" },
-  { name: "Amol Nahar", role: "HEAD OF PAYMENTS PRODUCTS, TATACLIQ", quote: "1x Rupee continues to offer a range of payment solutions with ease of integration which helps us provide seamless & choiceful payment options to our customers.", bg: "bg-white", company: "TATA CLIQ" },
+  { name: "Mohsin Batla", role: "DIRECTOR, TRAVCLAN", quote: "We admire XPayments for its great UI and consistent experience across our Web, Android, and iOS platforms!", bg: "bg-amber-50" },
+  { name: "Amol Nahar", role: "HEAD OF PAYMENTS PRODUCTS, TATACLIQ", quote: "XPayments continues to offer a range of payment solutions with ease of integration which helps us provide seamless & choiceful payment options to our customers.", bg: "bg-white", company: "TATA CLIQ" },
   { name: "Ashish Jadhav", role: "DIRECTOR OF PRODUCT MANAGEMENT", quote: "Ease of handling Payment Integrations and onboarding of PGs. Using its dynamic routing logic we achieved nearly 20% lift in payment success.", bg: "bg-white", company: "THE GOOD GLAMM GROUP" },
-  { name: "Prashant Aiyar", role: "PRODUCT, BIGBASKET", quote: "1x Rupee has been more of a partner than just a vendor. The breadth of knowledge in the payments space has been impressive!", bg: "bg-emerald-50" },
+  { name: "Prashant Aiyar", role: "PRODUCT, BIGBASKET", quote: "XPayments has been more of a partner than just a vendor. The breadth of knowledge in the payments space has been impressive!", bg: "bg-emerald-50" },
 ];
 
 export default function HyperCheckoutPage() {
@@ -120,7 +120,7 @@ export default function HyperCheckoutPage() {
             href="/contact"
             className="mt-10 inline-flex rounded-lg bg-primary px-8 py-3.5 font-semibold text-white hover:bg-primary-dark transition-colors"
           >
-            Try 1x Rupee Studio
+            Try XPayments Studio
           </Link>
         </div>
       </section>
@@ -162,7 +162,7 @@ export default function HyperCheckoutPage() {
             ))}
           </div>
         </div>
-        <p className="mt-12 text-center text-sm text-gray-500">Fueled by 1x Rupee</p>
+        <p className="mt-12 text-center text-sm text-gray-500">Fueled by XPayments</p>
       </section>
 
       {/* Section: Robust Payment Routing */}
@@ -180,7 +180,7 @@ export default function HyperCheckoutPage() {
               Robust Payment Routing
             </h2>
             <p className="mt-6 text-gray-300">
-              Engineered for Scale, Reliability and Performance, 1x Rupee&apos;s enterprise grade orchestration routes payments to the best performing payment gateway, while adhering to the business rules set by you.
+              Engineered for Scale, Reliability and Performance, XPayments&apos; enterprise grade orchestration routes payments to the best performing payment gateway, while adhering to the business rules set by you.
             </p>
             <div className="mt-8 space-y-6">
               <div className="flex gap-3">
@@ -203,17 +203,17 @@ export default function HyperCheckoutPage() {
               </div>
             </div>
           </div>
-          {/* Maze/routing visual with 1x Rupee logo in center */}
+          {/* Maze/routing visual with XPayments logo in center */}
           <div className="flex items-center justify-center">
             <div className="relative h-64 w-64 rounded-2xl border border-white/10 bg-white/5 p-8">
               <div className="absolute inset-8 rounded-full border border-white/10" />
               <div className="absolute inset-14 rounded-full border border-white/10" />
               <div className="absolute left-1/2 top-1/2 h-3 w-24 -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary" />
-              {/* Central 1x Rupee logo */}
+              {/* Central XPayments logo */}
               <div className="absolute left-1/2 top-1/2 flex h-20 w-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center overflow-hidden rounded-full bg-white shadow-lg ring-2 ring-primary">
                 <Image
                   src="/logo.png"
-                  alt="1x Rupee"
+                  alt="XPayments"
                   width={56}
                   height={56}
                   className="object-contain"

@@ -27,7 +27,7 @@ export default function Hero() {
         {/* Announcement banner */}
         <div className="mx-auto mb-8 max-w-2xl rounded-2xl bg-white px-6 py-4 shadow-sm transition-all duration-300 hover:shadow-md">
           <p className="text-center text-gray-800 font-medium">
-            1x Rupee raises ₹50 crore in Series D follow-up.
+            XPayments raises ₹50 crore in Series D follow-up.
           </p>
           <Link href="/resources/newsroom" className="mt-2 block text-center text-primary font-medium hover:underline transition-colors hover:text-primary-dark">
             Click here to read more

@@ -42,13 +42,13 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-sky-50/80 border-b border-sky-100">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
-        {/* Logo: 1x Rupee - larger, enhanced styling */}
+        {/* Logo: XPayments - larger, enhanced styling */}
         <Link href="/" className="group flex items-center transition-all duration-200 hover:opacity-95 hover:scale-[1.02]">
           <Image
             src="/logo.png"
-            alt="1x Rupee"
-            width={200}
-            height={50}
+            alt="XPayments"
+            width={210}
+            height={64}
             quality={100}
             className="h-16 w-auto object-contain drop-shadow-sm"
             priority

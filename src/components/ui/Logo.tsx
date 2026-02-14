@@ -13,9 +13,9 @@ export default function Logo({ className = "", size = "md" }: LogoProps) {
     <Link href="/" className={`flex items-center transition-all duration-200 hover:opacity-95 hover:scale-[1.02] ${className}`}>
       <Image
         src="/logo.png"
-        alt="1x Rupee"
-        width={220}
-        height={56}
+        alt="XPayments"
+        width={210}
+        height={64}
         quality={100}
         className={`${heightClass[size]} w-auto object-contain drop-shadow-sm`}
       />

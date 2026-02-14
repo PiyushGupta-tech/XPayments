@@ -22,7 +22,7 @@ export default function AboutPage() {
         </div>
 
         <div className="mt-16">
-          <h2 className="text-2xl font-bold text-gray-900">Why 1x Rupee</h2>
+          <h2 className="text-2xl font-bold text-gray-900">Why XPayments</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">
             <div className="rounded-lg border border-gray-200 p-6">
               <p className="text-2xl font-bold text-primary">300 Mn+</p>

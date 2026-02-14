@@ -79,10 +79,10 @@ export default function ExpressCheckoutPage() {
             </div>
           ))}
         </div>
-        {/* Central 1x Rupee logo */}
+        {/* Central XPayments logo */}
         <div className="relative mt-12 flex justify-center">
           <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg ring-2 ring-primary">
-            <Image src="/logo.png" alt="1x Rupee" width={56} height={56} className="object-contain" />
+            <Image src="/logo.png" alt="XPayments" width={56} height={56} className="object-contain" />
           </div>
         </div>
       </section>
@@ -102,7 +102,7 @@ export default function ExpressCheckoutPage() {
               Never miss a transaction with <span className="text-primary-light">Payment Routing</span>
             </h2>
             <p className="mt-6 text-gray-400">
-              1x Rupee merchant partners add ₹500M+ revenue to their top line every year. Optimized over a billion transactions over decades, 1x Rupee&apos;s intelligent orchestration engine always finds a way for your Payments.
+              XPayments merchant partners add ₹500M+ revenue to their top line every year. Optimized over a billion transactions over decades, XPayments&apos; intelligent orchestration engine always finds a way for your Payments.
             </p>
             <div className="mt-8 space-y-4">
               {orchestrationItems.map((item, i) => (
@@ -162,9 +162,9 @@ export default function ExpressCheckoutPage() {
               </div>
             ))}
           </div>
-          {/* Central 1x Rupee logo */}
+          {/* Central XPayments logo */}
           <div className="mt-8 flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg ring-2 ring-primary">
-            <Image src="/logo.png" alt="1x Rupee" width={56} height={56} className="object-contain" />
+            <Image src="/logo.png" alt="XPayments" width={56} height={56} className="object-contain" />
           </div>
         </div>
       </section>

@@ -15,15 +15,15 @@ export default function Footer() {
       />
 
       <div className="relative mx-auto max-w-7xl px-6 py-16">
-        {/* Logo + columns row - 1x Rupee style: logo left, nav columns right */}
+        {/* Logo + columns row - XPayments style: logo left, nav columns right */}
         <div className="flex flex-col gap-12 lg:flex-row lg:items-start lg:gap-16">
-          {/* Logo - 1x Rupee image, larger & enhanced */}
+          {/* Logo - XPayments image, larger & enhanced */}
           <Link href="/" className="group flex-shrink-0 transition-all duration-200 hover:opacity-95 hover:scale-[1.02]">
             <Image
               src="/logo.png"
-              alt="1x Rupee"
-              width={200}
-              height={50}
+              alt="XPayments"
+              width={210}
+              height={64}
               quality={100}
               className="h-16 w-auto object-contain drop-shadow-md"
             />
@@ -93,7 +93,7 @@ export default function Footer() {
         {/* Bottom bar: Copyright | Privacy | FAQ | Terms | Badges | Social */}
         <div className="mt-16 flex flex-col items-center justify-between gap-6 border-t border-gray-200 pt-10 md:flex-row md:flex-wrap">
           <p className="text-sm text-gray-600 order-1 md:order-none">
-            Copyright © {new Date().getFullYear()}. 1x Rupee Technologies. All rights reserved.
+            Copyright © {new Date().getFullYear()}. XPayments Technologies. All rights reserved.
           </p>
           <div className="flex flex-wrap items-center justify-center gap-6 order-2 md:order-none">
             <Link href="/privacy" className="text-sm text-gray-600 hover:text-primary no-underline transition-all duration-200 hover:scale-105">

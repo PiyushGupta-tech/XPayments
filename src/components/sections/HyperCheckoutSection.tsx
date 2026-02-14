@@ -45,7 +45,7 @@ export default function HyperCheckoutSection() {
           </span>
         </div>
         <h2 className="text-4xl font-bold text-white md:text-5xl lg:text-6xl">
-          1x Rupee HyperCheckout
+          XPayments HyperCheckout
         </h2>
         <p className="mx-auto mt-6 max-w-2xl text-lg text-gray-400">
           HyperCheckout combines the power of native checkout experiences, robust payment 

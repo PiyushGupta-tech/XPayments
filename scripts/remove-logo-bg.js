@@ -9,7 +9,7 @@ async function removeWhiteBackground() {
   const { data, info } = await image.raw().ensureAlpha().toBuffer({ resolveWithObject: true });
 
   const { width, height, channels } = info;
-  const threshold = 250; // pixels with R,G,B all above this become transparent
+  const threshold = 245; // pixels with R,G,B all above this become transparent (catches white + very light backgrounds)
 
   for (let i = 0; i < data.length; i += channels) {
     const r = data[i];
