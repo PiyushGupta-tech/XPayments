@@ -144,10 +144,10 @@ export default function DevelopersPage() {
           </div>
           <pre className="overflow-x-auto text-gray-300">
             <code>{`// Initialize XPayments SDK
-const rupee = await OneXRupee.init({ apiKey: 'pk_live_xxx' });
+const xpayments = await XPayments.init({ apiKey: 'pk_live_xxx' });
 
 // Create a payment session
-const session = await rupee.payments.create({
+const session = await xpayments.payments.create({
   amount: 50000,  // ₹500.00 (in paise)
   currency: 'INR',
   customerId: 'cust_123',

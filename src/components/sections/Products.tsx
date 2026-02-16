@@ -53,11 +53,11 @@ export default function Products() {
   const { ref, isInView } = useScrollReveal(0.1);
 
   return (
-    <section className="bg-white py-20 md:py-28">
+    <section className="bg-white py-12 md:py-20">
       <div ref={ref} className="mx-auto max-w-7xl px-6">
         {/* Heading & Subtitle - XPayments style */}
         <div className={`mb-16 transition-all duration-600 ease-out ${isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}`}>
-          <h2 className="text-4xl font-bold text-gray-900 md:text-5xl">
+          <h2 className="text-4xl font-bold text-primary md:text-5xl">
             Products
           </h2>
           <p className="mt-3 text-lg text-gray-500">

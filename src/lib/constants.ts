@@ -71,7 +71,7 @@ export const footerLinks = {
   compliances: [
     { label: "Vulnerability Disclosure", href: "/compliances/vulnerability" },
     { label: "Payment Aggregation", href: "/compliances/pa" },
-    { label: "PCI DSS 4.0", href: "/compliances/pci" },
+    { label: "PCI DSS", href: "/compliances/pci" },
     { label: "ISO 27001:2022", href: "/compliances/iso" },
     { label: "SOC 2 Type 2", href: "/compliances/soc2" },
   ],
@@ -83,10 +83,10 @@ export const footerLinks = {
 };
 
 export const stats = [
-  { value: "300 Mn+", label: "Transactions processed every day" },
-  { value: "99.999%", label: "Uptime best in class" },
-  { value: "2.5 Bn+", label: "App Installs with XPayments SDKs" },
-  { value: "₹1 Lakh Cr+", label: "Annual TPV" },
+  { value: "50 Mn+", label: "Transactions processed every day" },
+  { value: "99.5%", label: "Uptime best in class" },
+  { value: "5 Mn+", label: "App Installs with XPayments SDKs" },
+  { value: "18.25 Bn", label: "Annual TPV" },
 ];
 
 export const trustedBy = ["Amazon", "Flipkart", "Swiggy", "Meesho", "Jio", "Myntra"];

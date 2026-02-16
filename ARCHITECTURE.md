@@ -1,6 +1,6 @@
 # X payments — Project Architecture
 
-> **Concept:** A payment platform website with **1x Rupee's visual design** (clean, trustworthy, professional) and **1x Rupee content** (B2B payments OS, UPI, checkout solutions, developer-centric).
+> **Concept:** A payment platform website with **XPayments's visual design** (clean, trustworthy, professional) and **XPayments content** (B2B payments OS, UPI, checkout solutions, developer-centric).
 
 ---
 
@@ -8,9 +8,9 @@
 
 | Aspect | Details |
 |--------|---------|
-| **Name** | 1x Rupee |
-| **Purpose** | B2B payment solutions platform (1x Rupee) |
-| **Visual Style** | 1x Rupee-inspired (clean, blue-primary, professional trust) |
+| **Name** | XPayments |
+| **Purpose** | B2B payment solutions platform (XPayments) |
+| **Visual Style** | XPayments-inspired (clean, blue-primary, professional trust) |
 | **Content Focus** | Payment APIs, UPI stack, checkout solutions, developer tools |
 
 ---
@@ -71,7 +71,7 @@ Landing Page
 ## 5. Folder Structure
 
 ```
-1x Rupee/
+XPayments/
 ├── public/
 │   ├── images/
 │   ├── icons/
@@ -122,7 +122,7 @@ Landing Page
 
 ---
 
-## 6. Content Structure (1x Rupee Style)
+## 6. Content Structure (XPayments Style)
 
 ### 6.1 Products Section
 
@@ -133,7 +133,7 @@ Landing Page
 | **Affordability** | HyperCredit (Merchants, Lenders) |
 | **Customer Experience** | QuickPay, Retry, Native OTP, TPV |
 
-### 6.2 Key Messaging (1x Rupee)
+### 6.2 Key Messaging (XPayments)
 
 - **Tagline:** "Global Payments Operating System"
 - **Value props:** Superior UX, Higher conversions, Minimal payment operations
@@ -148,11 +148,11 @@ Landing Page
 
 ---
 
-## 7. Design System (1x Rupee-Inspired)
+## 7. Design System (XPayments-Inspired)
 
 | Element | Specification |
 |---------|---------------|
-| **Primary Color** | 1x Rupee blue `#003087` or `#0070ba` |
+| **Primary Color** | XPayments blue `#003087` or `#0070ba` |
 | **Secondary** | Dark navy, light gray backgrounds |
 | **Typography** | Clean sans-serif (Inter, Source Sans Pro, or similar) |
 | **Layout** | Generous whitespace, clear hierarchy |
@@ -218,4 +218,4 @@ vercel
 
 ---
 
-*Architecture for 1x Rupee — 1x Rupee look and content.*
+*Architecture for XPayments — XPayments look and content.*

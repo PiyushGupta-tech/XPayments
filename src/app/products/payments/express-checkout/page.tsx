@@ -102,7 +102,7 @@ export default function ExpressCheckoutPage() {
               Never miss a transaction with <span className="text-primary-light">Payment Routing</span>
             </h2>
             <p className="mt-6 text-gray-400">
-              XPayments merchant partners add ₹500M+ revenue to their top line every year. Optimized over a billion transactions over decades, XPayments&apos; intelligent orchestration engine always finds a way for your Payments.
+              XPayments merchant partners add significant revenue to their top line. Built on 2 years of fintech expertise, XPayments&apos; intelligent orchestration engine always finds a way for your Payments.
             </p>
             <div className="mt-8 space-y-4">
               {orchestrationItems.map((item, i) => (

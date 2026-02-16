@@ -10,9 +10,6 @@ export const metadata: Metadata = {
   title: "XPayments | Global Payments Operating System",
   description:
     "XPayments - Global Payments Operating System. Superior UX, higher conversions, minimal payment operations. HyperCheckout, HyperUPI, HyperCredit—everything for 10x growth.",
-  icons: {
-    icon: "/favicon.svg",
-  },
 };
 
 export default function RootLayout({

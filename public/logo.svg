@@ -6,7 +6,7 @@
       <stop offset="100%" stop-color="#0070ba"/>
     </linearGradient>
   </defs>
-  <!-- X emblem - clean diagonal strokes, gradient, glossy like 1xRupee -->
+  <!-- X emblem - clean diagonal strokes, gradient, glossy -->
   <g transform="translate(0, 8)">
     <!-- Left arm (upper-left to lower-right) - darker base -->
     <path d="M6 4 L22 32" stroke="url(#xpGrad)" stroke-width="6" stroke-linecap="round"/>

@@ -62,7 +62,7 @@ export default function Header() {
             onMouseEnter={() => setOpenDropdown("products")}
             onMouseLeave={() => setOpenDropdown(null)}
           >
-            <button className="flex items-center gap-1 text-gray-800 hover:text-primary font-medium transition-all duration-200 hover:scale-[1.02]">
+            <button className="flex items-center gap-1 text-primary hover:text-primary-dark font-medium transition-all duration-200 hover:scale-[1.02]">
               Products
               <svg className="h-4 w-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -218,7 +218,7 @@ export default function Header() {
         <div className="md:hidden border-t border-sky-100 bg-white px-6 py-4">
           <div className="space-y-4">
             <div>
-              <p className="mb-2 text-xs font-semibold uppercase text-gray-500">Products</p>
+              <p className="mb-2 text-xs font-semibold uppercase text-primary">Products</p>
               <div className="space-y-1">
                 {navLinks.products.map((p) => (
                   <div key={p.label}>

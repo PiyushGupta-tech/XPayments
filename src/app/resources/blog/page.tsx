@@ -210,7 +210,7 @@ export default function BlogPage() {
 
       {/* Products */}
       <section className="mx-auto max-w-7xl px-6 py-16">
-        <h2 className="text-3xl font-bold text-gray-900">Products</h2>
+        <h2 className="text-3xl font-bold text-primary">Products</h2>
         <p className="mt-2 text-gray-600">Explore our suite of payment products & integrations</p>
         <p className="mt-8 text-sm font-semibold uppercase tracking-wider text-gray-400">Checkout</p>
         <div className="mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

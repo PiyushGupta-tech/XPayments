@@ -25,15 +25,15 @@ export default function AboutPage() {
           <h2 className="text-2xl font-bold text-gray-900">Why XPayments</h2>
           <div className="mt-8 grid gap-6 sm:grid-cols-3">
             <div className="rounded-lg border border-gray-200 p-6">
-              <p className="text-2xl font-bold text-primary">300 Mn+</p>
+              <p className="text-2xl font-bold text-primary">50 Mn+</p>
               <p className="mt-2 text-gray-600">Transactions processed every day</p>
             </div>
             <div className="rounded-lg border border-gray-200 p-6">
-              <p className="text-2xl font-bold text-primary">99.999%</p>
+              <p className="text-2xl font-bold text-primary">99.5%</p>
               <p className="mt-2 text-gray-600">Uptime best in class</p>
             </div>
             <div className="rounded-lg border border-gray-200 p-6">
-              <p className="text-2xl font-bold text-primary">₹1 Lakh Cr+</p>
+              <p className="text-2xl font-bold text-primary">18.25 Bn</p>
               <p className="mt-2 text-gray-600">Annual TPV</p>
             </div>
           </div>

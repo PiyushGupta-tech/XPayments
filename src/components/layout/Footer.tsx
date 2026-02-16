@@ -46,7 +46,7 @@ export default function Footer() {
             </ul>
           </div>
           <div>
-            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-gray-900">
+            <h3 className="mb-4 text-sm font-semibold uppercase tracking-wider text-primary">
               Products
             </h3>
             <ul className="space-y-2">
@@ -90,12 +90,9 @@ export default function Footer() {
         </div>
         </div>
 
-        {/* Bottom bar: Copyright | Privacy | FAQ | Terms | Badges | Social */}
+        {/* Bottom bar: Privacy | FAQ | Terms | Badges | Social */}
         <div className="mt-16 flex flex-col items-center justify-between gap-6 border-t border-gray-200 pt-10 md:flex-row md:flex-wrap">
-          <p className="text-sm text-gray-600 order-1 md:order-none">
-            Copyright © {new Date().getFullYear()}. XPayments Technologies. All rights reserved.
-          </p>
-          <div className="flex flex-wrap items-center justify-center gap-6 order-2 md:order-none">
+          <div className="flex flex-wrap items-center justify-center gap-6 order-1 md:order-none">
             <Link href="/privacy" className="text-sm text-gray-600 hover:text-primary no-underline transition-all duration-200 hover:scale-105">
               Privacy Policy
             </Link>
@@ -106,7 +103,7 @@ export default function Footer() {
               Terms of Service
             </Link>
           </div>
-          <div className="flex flex-wrap items-center justify-center gap-4 order-4 md:order-3 md:ml-auto">
+          <div className="flex flex-wrap items-center justify-center gap-4 order-2 md:ml-auto">
             {/* Blue circular certification badges */}
             <Link
               href="/compliances/soc2"

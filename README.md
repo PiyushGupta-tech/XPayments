@@ -1,4 +1,4 @@
-# 1x Rupee
+# XPayments
 
 A payment platform website for **X payments** — B2B payment solutions, UPI stack, and checkout experiences.
 
@@ -6,7 +6,7 @@ A payment platform website for **X payments** — B2B payment solutions, UPI sta
 
 ## Overview
 
-1x Rupee is a modern web platform showcasing payment solutions for businesses: native checkouts, UPI integration, payouts, and developer-friendly APIs. The design follows 1x Rupee's clean, trustworthy aesthetic with a focus on enterprise payment infrastructure.
+XPayments is a modern web platform showcasing payment solutions for businesses: native checkouts, UPI integration, payouts, and developer-friendly APIs. The design follows XPayments's clean, trustworthy aesthetic with a focus on enterprise payment infrastructure.
 
 ---
 
@@ -29,7 +29,7 @@ A payment platform website for **X payments** — B2B payment solutions, UPI sta
 
 ```bash
 # Clone or navigate to the project
-cd "1x Rupee"
+cd "XPayments"
 
 # Install dependencies
 npm install
@@ -83,7 +83,7 @@ vercel
 ## Project Structure
 
 ```
-1x Rupee/
+XPayments/
 ├── src/
 │   ├── app/          # Pages & layouts
 │   ├── components/   # Reusable components

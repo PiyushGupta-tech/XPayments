@@ -1,7 +1,7 @@
 const news = [
-  { title: "XPayments raises $50M in Series D follow-up", date: "Feb 2025", type: "Funding" },
+  { title: "XPayments raises funding to accelerate growth", date: "Feb 2025", type: "Funding" },
   { title: "XPayments partners with leading banks for UPI expansion", date: "Jan 2025", type: "Partnership" },
-  { title: "HyperUPI crosses 300M daily transactions", date: "Dec 2024", type: "Milestone" },
+  { title: "HyperUPI crosses 10M daily transactions milestone", date: "Dec 2024", type: "Milestone" },
   { title: "XPayments achieves SOC 2 Type 2 certification", date: "Nov 2024", type: "Compliance" },
 ];
 
