@@ -12,7 +12,7 @@ export default function Logo({ className = "", size = "md" }: LogoProps) {
   return (
     <Link href="/" className={`flex items-center transition-all duration-200 hover:opacity-95 hover:scale-[1.02] ${className}`}>
       <Image
-        src="/logo.png"
+        src="/logo.png?v=3"
         alt="XPayments"
         width={210}
         height={64}

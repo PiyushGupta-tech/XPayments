@@ -82,7 +82,7 @@ export default function ExpressCheckoutPage() {
         {/* Central XPayments logo */}
         <div className="relative mt-12 flex justify-center">
           <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg ring-2 ring-primary">
-            <Image src="/logo.png" alt="XPayments" width={56} height={56} className="object-contain" />
+            <Image src="/logo.png?v=3" alt="XPayments" width={56} height={56} className="object-contain" />
           </div>
         </div>
       </section>
@@ -164,7 +164,7 @@ export default function ExpressCheckoutPage() {
           </div>
           {/* Central XPayments logo */}
           <div className="mt-8 flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg ring-2 ring-primary">
-            <Image src="/logo.png" alt="XPayments" width={56} height={56} className="object-contain" />
+            <Image src="/logo.png?v=3" alt="XPayments" width={56} height={56} className="object-contain" />
           </div>
         </div>
       </section>

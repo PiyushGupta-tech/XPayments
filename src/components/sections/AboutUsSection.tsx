@@ -63,7 +63,7 @@ export default function AboutUsSection() {
               <circle cx="200" cy="190" r="40" />
             </clipPath>
             <image
-              href="/logo.png"
+              href="/logo.png?v=3"
               x="158"
               y="148"
               width="84"

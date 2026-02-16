@@ -104,7 +104,7 @@ export default function PayoutsPage() {
           </div>
           {/* Central XPayments logo */}
           <div className="relative mt-8 flex h-24 w-24 items-center justify-center rounded-full bg-white shadow-lg ring-2 ring-primary">
-            <Image src="/logo.png" alt="XPayments" width={64} height={64} className="object-contain" />
+            <Image src="/logo.png?v=3" alt="XPayments" width={64} height={64} className="object-contain" />
           </div>
         </div>
       </section>
@@ -147,7 +147,7 @@ export default function PayoutsPage() {
           {/* Central XPayments logo */}
           <div className="flex justify-center">
             <div className="flex h-20 w-20 items-center justify-center rounded-full bg-white shadow-lg ring-2 ring-primary">
-              <Image src="/logo.png" alt="XPayments" width={56} height={56} className="object-contain" />
+              <Image src="/logo.png?v=3" alt="XPayments" width={56} height={56} className="object-contain" />
             </div>
           </div>
           <div className="text-center">

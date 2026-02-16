@@ -212,7 +212,7 @@ export default function HyperCheckoutPage() {
               {/* Central XPayments logo */}
               <div className="absolute left-1/2 top-1/2 flex h-20 w-20 -translate-x-1/2 -translate-y-1/2 items-center justify-center overflow-hidden rounded-full bg-white shadow-lg ring-2 ring-primary">
                 <Image
-                  src="/logo.png"
+                  src="/logo.png?v=3"
                   alt="XPayments"
                   width={56}
                   height={56}

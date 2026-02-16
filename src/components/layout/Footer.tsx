@@ -20,7 +20,7 @@ export default function Footer() {
           {/* Logo - XPayments image, larger & enhanced */}
           <Link href="/" className="group flex-shrink-0 transition-all duration-200 hover:opacity-95 hover:scale-[1.02]">
             <Image
-              src="/logo.png"
+              src="/logo.png?v=3"
               alt="XPayments"
               width={210}
               height={64}

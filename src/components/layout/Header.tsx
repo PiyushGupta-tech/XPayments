@@ -45,7 +45,7 @@ export default function Header() {
         {/* Logo: XPayments - larger, enhanced styling */}
         <Link href="/" className="group flex items-center transition-all duration-200 hover:opacity-95 hover:scale-[1.02]">
           <Image
-            src="/logo.png"
+            src="/logo.png?v=3"
             alt="XPayments"
             width={210}
             height={64}
